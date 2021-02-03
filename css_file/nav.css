@@ -209,5 +209,7 @@ div.sen>h1 {
 div.test {
     height: 800px;
     width: 100%;
-    border: 2px solid red;
+    background-image: url(../pictures/ex_bg_m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
