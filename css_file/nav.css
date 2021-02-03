@@ -9,6 +9,7 @@ body {
     margin: 0;
     background: white;
     font-family: 'Orbitron', sans-serif;
+    overflow: hidden;
 }
 
 :root {
@@ -118,7 +119,6 @@ nav a:hover {
 
 #senna {
     width: 1920px;
-    text-align: end;
 }
 
 @media screen and (min-width: 800px) {
