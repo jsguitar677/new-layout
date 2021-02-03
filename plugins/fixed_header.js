@@ -8,7 +8,7 @@ const showAnim = gsap.from('.main_header', {
 ScrollTrigger.create({
 
     start: "top top",
-    // end: 99999,
+    end: 99999,
     onUpdate: (self) => {
         self.direction === -1 ? showAnim.play() : showAnim.reverse()
     }

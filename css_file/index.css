@@ -11,6 +11,7 @@
     /* src: url("https://alldata.sgp1.digitaloceanspaces.com/fonts/NotoSerifTC/NotoSerifTC-Light.otf"); */
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
 
 /* #container {
     position: absolute;
@@ -45,7 +46,7 @@ div.pic_container>video {
 div.pic_container>h2 {
     position: absolute;
     color: white;
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     top: 15%;
     left: 3%;
     font-size: 4vw;
@@ -55,7 +56,7 @@ div.pic_container>h2 {
 div.pic_container>h1 {
     position: absolute;
     color: white;
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     font-size: 6vw;
     z-index: 1;
     right: 2%;
@@ -81,7 +82,7 @@ div.driving_experience {
 }
 
 div.driving_experience>h1 {
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     color: white;
     position: absolute;
     text-shadow: black 0.1em 0.1em 0.2em;
@@ -91,7 +92,7 @@ div.driving_experience>h1 {
 
 ul.steps {
     color: white;
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     position: absolute;
     right: 5%;
     top: 25%;
@@ -214,7 +215,7 @@ div.scroll_msg {
 
 div.bb>h1 {
     color: white;
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     text-shadow: black 0.1em 0.1em 0.2em;
     font-size: 2vw;
     right: 0;
@@ -272,7 +273,7 @@ div.new_arrive>h1 {
     position: absolute;
     font-size: 4vw;
     color: white;
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     left: 6%;
     margin: 0;
     top: 2%;
@@ -282,7 +283,7 @@ div.new_arrive>h2 {
     position: absolute;
     font-size: 5vw;
     color: white;
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     left: 25%;
     top: 4%;
 }
@@ -366,7 +367,7 @@ ul.r_n {
 }
 
 ul.r_n>li {
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     margin-top: 5%;
 }
 
@@ -436,7 +437,7 @@ div.mask2 {
 div.track>h2 {
     color: white;
     font-size: 4vw;
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     text-shadow: black 0.1em 0.1em 0.2em;
     position: absolute;
     left: 2%;
@@ -447,7 +448,7 @@ div.track>h2 {
 div.track>h1 {
     color: white;
     font-size: 4vw;
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     text-shadow: black 0.1em 0.1em 0.2em;
     position: absolute;
     right: 2%;
@@ -458,7 +459,7 @@ div.track>h1 {
 div.content1 {
     color: white;
     font-size: 1vw;
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     position: absolute;
     left: 2%;
     top: 18%;
@@ -470,7 +471,7 @@ div.content1 {
 div.content2 {
     color: white;
     font-size: 1vw;
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     position: absolute;
     right: 2%;
     bottom: 20%;
@@ -535,7 +536,7 @@ div.deco>img {
 div.deco>h1 {
     color: white;
     font-size: 4vw;
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     position: absolute;
     left: 2%;
     top: 6%;
@@ -561,7 +562,7 @@ div.deco>h6 {
 
 div.deco>h2.en {
     color: rgba(255, 255, 255, 0.15);
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     font-size: 5vw;
     position: absolute;
     z-index: 2;
@@ -572,7 +573,7 @@ div.deco>h2.en {
 
 div.deco>h2.cn {
     color: rgba(255, 255, 255, 0.15);
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     font-size: 5vw;
     position: absolute;
     z-index: 2;
@@ -583,7 +584,7 @@ div.deco>h2.cn {
 
 div.deco>h2.jp {
     color: rgba(255, 255, 255, 0.15);
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     font-size: 5vw;
     position: absolute;
     z-index: 2;
@@ -594,7 +595,7 @@ div.deco>h2.jp {
 
 div.deco>h2.ru {
     color: rgba(255, 255, 255, 0.15);
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     font-size: 5vw;
     position: absolute;
     z-index: 2;
@@ -605,7 +606,7 @@ div.deco>h2.ru {
 
 div.deco>h2.kr {
     color: rgba(255, 255, 255, 0.15);
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     font-size: 3vw;
     position: absolute;
     z-index: 2;
@@ -673,7 +674,7 @@ div.instructor_stig>video {
 div.instructor_stig>h1.topic {
     color: white;
     font-size: 4vw;
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     text-shadow: black 0.1em 0.1em 0.2em;
     position: absolute;
     left: 2%;
@@ -692,7 +693,7 @@ div.instructor_stig>h1.topic {
     color: #fff;
     letter-spacing: -7px;
     font-weight: 700;
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
     animation: blur 20s ease-out infinite;
     text-shadow: 0.1px 0.1px 5px black, black 0.1em 0.1em 0.2em;
@@ -707,7 +708,7 @@ div.instructor_stig>h1.topic {
 div.instructor_stig>h1.stig {
     color: black;
     font-size: 5vw;
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     text-shadow: rgb(255, 255, 255) 0.01em 0.01em 0.2em;
     position: absolute;
     left: 37.7%;
@@ -733,7 +734,7 @@ div.instructor_stig>h6 {
 div.instructor_stig>h2 {
     color: white;
     font-size: 1vw;
-    font-family: 'f1_regular';
+    font-family: 'Orbitron', sans-serif;
     text-shadow: black 0.1em 0.1em 0.2em;
     position: absolute;
     right: 1%;
