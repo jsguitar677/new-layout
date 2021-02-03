@@ -196,3 +196,9 @@ div.test {
         transform: scale(1, 1);
     }
 }
+
+@media (max-width: 500px) {
+    nav li:nth-child(1) {
+        padding-top: 10px;
+    }
+}
