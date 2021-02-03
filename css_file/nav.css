@@ -124,14 +124,14 @@ div.sen {
     position: relative;
     overflow: hidden;
     height: 800px;
+    width: 100%;
 }
 
 #senna {
     position: absolute;
     left: 0;
-    right: 0;
     top: 0;
-    bottom: 0;
+    width: 1920px;
 }
 
 @media screen and (min-width: 800px) {
