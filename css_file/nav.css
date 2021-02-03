@@ -11,7 +11,7 @@ html {
 
 body {
     margin: 0;
-    background: white;
+    background: black;
     font-family: 'Orbitron', sans-serif;
 }
 
@@ -131,16 +131,19 @@ div.sen {
     /* width: 100%; */
 }
 
+div.sen>h1 {
+    font-family: 'Orbitron', sans-serif;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 4%;
+    color: white;
+}
+
 #senna {
     position: absolute;
     right: 0%;
-    top: 0;
-    width: 100%;
-}
-
-div.test {
-    height: 800px;
-    background: red;
+    top: 0%;
     width: 100%;
 }
 
@@ -201,4 +204,10 @@ div.test {
     nav li:nth-child(1) {
         padding-top: 10px;
     }
+}
+
+div.test {
+    height: 800px;
+    width: 100%;
+    border: 2px solid red;
 }
