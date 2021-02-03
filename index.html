@@ -8,49 +8,47 @@
     <link rel="icon" href="./logo/title_icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css_file/index.css">
     <script type="text/javascript" src="./plugins/aos.js"></script>
+    <link rel="stylesheet" href="./css_file/nav_mobile.css">
     <link rel="stylesheet" href="css_file/aos.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css'>
 </head>
 
 
 <body>
-
-    <div id="container">
-        <header id="main_header">
-            <nav class="main_nav">
-                <a href="./index.html" class="logo_img">
-                    <img src="./logo/logo_img.png" class="logo"></a>
-                <a href="#" class="showmenu">menu</a>
-                <ul class="link_list">
-                    <li><a class="d_e" href="./driving_experience.html">Driving Experience</a></li>
-                    <li><a class="o_f" href="./just_race_fleet.html">Our Fleet</a></li>
-                    <li><a class="t_p" href="./track_preview.html">Track Preview </a></li>
-                    <li><a class="about" href="./about.html">About</a></li>
-                    <li><a class="b_n" href="./book.html">Book Now</a></li>
-                </ul>
-                <ul class="hiden_list">
-                    <li><a class="d_e" href="./driving_experience.html">Driving Experience.</a></li>
-                    <li><a class="o_f" href="./just_race_fleet.html">Our Fleet</a></li>
-                    <li><a class="t_p" href="./track_preview.html">Track Preview. </a></li>
-                    <li><a class="about" href="./about.html">About.</a></li>
-                    <li><a class="b_n" href="./book.html">Book Now.</a></li>
-                </ul>
-                <marquee class="alert">
-                    <li>
-                        <font color="yellow">!</font> Current Track Condition : dry and clean, surface temperature: 12 degrees.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-
-                        <font color="yellow">!</font> COVID-19 AlERT : We’ve cancelled our Track Day and all our Drive experiences for November and anyone booked in will be emailed with an update. We’ll be rescheduling as soon as restrictions are lifted and it’s safe to do
-                        so. </li>
-
-                </marquee>
-            </nav>
+    <div class="main_header">
+        <header>
+            <div class="container">
+                <h1 class="logo"><img src="./logo/white_logo.png" width="80px"></h1>
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <nav>
+                    <ul>
+                        <li><a href="#">Experience</a></li>
+                        <li><a href="#">Fleet</a></li>
+                        <li><a href="#">Track</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Book</a></li>
+                    </ul>
+                </nav>
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <svg class="hamburger" viewBox="0 0 100 100">
+                        <line class="line-one" x1="25" y1="42" x2="75" y2="42" fill="none" stroke="#fff"
+                            stroke-miterlimit="10" stroke-width="4" />
+                        <line class="line-two" x1="25" y1="57" x2="75" y2="57" fill="none" stroke="#fff"
+                            stroke-miterlimit="10" stroke-width="4" />
+                        <line class="line-three" x1="25" y1="72" x2="75" y2="72" fill="none" stroke="#fff"
+                            stroke-miterlimit="10" stroke-width="4" />
+                    </svg>
+             </label>
+            </div>
         </header>
+    </div>
 
+    <div class="desktop">
         <div class="pic_container">
             <!-- <h2>welcome </h2> -->
             <h1 data-aos="fade-right" data-aos-duration="3000" data-aos-delay="2000">JUST RACE</h1>
 
-            <video src="./video/senna2.webm" width="100%" autoplay loop muted data-aos="zoom-out" data-aos-duration="3000"></video>
+            <video src="./video/senna.mp4" width="100%" autoplay loop muted data-aos="zoom-out" data-aos-duration="3000"></video>
         </div>
 
         <div class="driving_experience" data-aos="zoom-in" data-aos-duration="500" data-aos-once="true" data-aos-delay="500">
@@ -95,7 +93,7 @@
 
         <div class="track">
             <video src="./video/circuit_v.mp4" width="100%" autoplay loop muted data-aos="fade-in" data-aos-duration="1500">
-            </video>
+                </video>
             <h2>Just a glimpse</h2>
             <h1>Of What You Will See Behind The Wheel !</h1>
             <div class="mask1" data-aos="fade-down-left" data-aos-delay="400" data-aos-duration="1500"></div>
@@ -132,98 +130,44 @@
             </div>
             <a class="book " href="./about.html" data-aos="fade-right" data-aos-duration="1500" data-aos-once="true" data-aos-offset="0" data-aos-delay="3000">Our Team<div class=arrows>></div></a>
         </div>
-        </section>
+
+    </div>
+    <!-- -----------------------------------------------------------------------desktop---------------------------------------->
+
+    <!--------------------------------------------------------------------------mobile-------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="mobile">
+        <div class="sen">
+            <h1 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000" data-aos-offset="0">JUST RACE</h1><video autoplay="autoplay" loop="loop" muted defaultMuted playsinline oncontextmenu="return false;" preload="auto" id="senna" poster="./pictures/giphy.gif">
+            <source src="./video/senna3.mp4" type="video/mp4">
+            </video></div>
+
+        <div class="test"></div>
+
+
+        <!-- <script src="hamburger.js"></script> -->
+        <!-- partial -->
     </div>
 
-
-
-
-
-    <div class="footer ">
+    <div class="footer">
         <img src="./pictures/banner_img.png " height="3px ">
         <h1>© Just Race Limited
             <h1>
     </div>
-    </div>
-
-    <script>
-        // $(document).ready(function() {
-        //     $('.showmenu').on('click', function(e) {
-        //         // e.preventDefault();
-        //         $('ul .hiden_list').css('transform', "translate(0%)");
-        //     });
-        // });
-        let showmenu = document.querySelector(".showmenu");
-        showmenu.addEventListener("click", function() {
-            let hiden_list = document.querySelector(".hiden_list");
-            hiden_list.classList.toggle("show");
-            // console.log(hiden_list);
-        })
-    </script>
-    <script>
-        (function() {
-
-            var doc = document.documentElement;
-            var w = window;
-
-            var prevScroll = w.scrollY || doc.scrollTop;
-            var curScroll;
-            var direction = 0;
-            var prevDirection = 0;
-
-            var header = document.getElementById('main_header');
-
-            var checkScroll = function() {
-
-                /*
-                 ** Find the direction of scroll
-                 ** 0 - initial, 1 - up, 2 - down
-                 */
-
-                curScroll = w.scrollY || doc.scrollTop;
-                if (curScroll > prevScroll) {
-                    //scrolled up
-                    direction = 2;
-                } else if (curScroll < prevScroll) {
-                    //scrolled down
-                    direction = 1;
-                }
-
-                if (direction !== prevDirection) {
-                    toggleHeader(direction, curScroll);
-                }
-
-                prevScroll = curScroll;
-            };
-
-            var toggleHeader = function(direction, curScroll) {
-                if (direction === 2 && curScroll > 52) {
-
-                    //replace 52 with the height of your header in px
-
-                    header.classList.add('hide');
-                    prevDirection = direction;
-                } else if (direction === 1) {
-                    header.classList.remove('hide');
-                    prevDirection = direction;
-                }
-            };
-
-            window.addEventListener('scroll', checkScroll);
-
-        })();
-    </script>
 
     <script>
         AOS.init();
     </script>
+
     <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426'></script>
     <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js'></script>
-    <script src="./plugins/infinitescroll.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js'></script>
+    <!-- <script src="./plugins/nav.js"></script> -->
+    <script src='https://assets.codepen.io/16327/gsap-latest-beta.min.js'></script>
+    <script src='https://assets.codepen.io/16327/ScrollTrigger.min.js?v=40'></script>
+    <script src="./plugins/fixed_header.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/CSSRulePlugin.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js'></script>
-
+    <!-- 數字動畫 -->
     <script>
         gsap.registerPlugin(ScrollTrigger);
         let start = {
@@ -253,6 +197,8 @@
             });
         });
     </script>
+    <!------------------------------------------------------------------------------------------------>
+    <!-- aos重整-------------------------------------------------------------------------------------->
     <script>
         let samt = 0;
         window.addEventListener('scroll', function() {
