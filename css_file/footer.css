@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "F1_bold";
+    src: url("../font/Formula1-Bold.otf");
+    /* src: url("https://alldata.sgp1.digitaloceanspaces.com/fonts/NotoSerifTC/NotoSerifTC-Light.otf"); */
+}
+
+@font-face {
+    font-family: "F1_regular";
+    src: url("../font/Formula1-Regular.otf");
+    /* src: url("https://alldata.sgp1.digitaloceanspaces.com/fonts/NotoSerifTC/NotoSerifTC-Light.otf"); */
+}
+
+div.footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    max-width: 100%;
+    font-family: "F1_bold";
+    margin-top: 20px;
+    /* position: relative; */
+}
+
+div.footer>h1 {
+    font-size: 15px;
+    margin: 0px;
+    /* position: absolute; */
+    text-align: center;
+    padding: 0;
+    padding-top: 13.5px;
+}
+
+div.footer img {
+    margin: 0px;
+    /* border: 1px solid forestgreen; */
+    width: 100%;
+    display: block;
+    right: 0;
+    right: 0;
+}

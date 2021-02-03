@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>track preview</title>
+    <link rel="icon" href="./logo/title_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css_file/track_preview.css">
+    <script type="text/javascript" src="./plugins/aos.js"></script>
+    <link rel="stylesheet" href="css_file/aos.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <header id="main_header">
+            <nav class="main_nav">
+                <a href="./index.html" class="logo_img">
+                    <img src="./logo/logo_img.png" class="logo"></a>
+                <a href="#" class="showmenu">menu</a>
+                <ul class="link_list">
+                    <li><a class="d_e" href="./driving_experience.html">Driving Experience</a></li>
+                    <li><a class="o_f" href="./just_race_fleet.html">Our Fleet</a></li>
+                    <li><a class="t_p" href="#">Track Preview </a></li>
+                    <li><a class="about" href="./about.html">About</a></li>
+                    <li><a class="b_n" href="./book.html">Book Now</a></li>
+                </ul>
+                <ul class="hiden_list">
+                    <li><a class="d_e" href="./driving_experience.html">Driving Experience.</a></li>
+                    <li><a class="o_f" href="./just_race_fleet.html">Our Fleet</a></li>
+                    <li><a class="t_p" href="./track_preview.html">Track Preview. </a></li>
+                    <li><a class="about" href="./about.html">About.</a></li>
+                    <li><a class="b_n" href="./book.html">Book Now.</a></li>
+                </ul>
+                <marquee class="alert">
+                    <li>
+                        <font color="yellow">!</font> Current Track Condition : dry and clean, surface temperature: 12 degrees.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+                        <font color="yellow">!</font> COVID-19 AlERT : We’ve cancelled our Track Day and all our Drive experiences for November and anyone booked in will be emailed with an update. </li>
+                    We’ll be rescheduling as soon as restrictions are lifted and it’s safe to do so. </li>
+
+                </marquee>
+            </nav>
+        </header>
+
+
+
+        <div class="pic_container">
+            <h1><br>Smell of burning rubber, Sound of high rev engine, all come along with the Awesome view of our Track!</h1>
+            <video src="./video/track_video.mp4" width="100%" autoplay loop data-aos="zoom-out" data-aos-duration="3000"></video>
+        </div>
+
+        <div id="pinContainer">
+
+            <div class="race_way">
+                <div class="rw_content">
+                    <h1 autoplay loop data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">Just Race Exclusive Race Way
+                    </h1>
+                    <p autoplay loop data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true" data-aos-anchor=".rw_content>h1">Our track is a 1.2 mile, 9 turn road course located in the center of the Just Race speed way. The average cornering speed for this course ranges from 80 kph on the first left handed corner to 135 kph. The Ferrari F430 GT can reach
+                        speeds up to 220 kph / 135 mph in the straight away and lateral G-Forces up to 1.6. This challenging track is the perfect location to race on. It offers visibility of every upcoming portion of the track allowing you to improve
+                        on every lap.</p>
+                </div>
+                <img src="./track_preview_pic/ag_1.png" class="ag_gp">
+            </div>
+
+
+
+            <div class="track_view">
+                <h1>Corner Breifing</h1>
+                <ul class="corner_list">
+                    <li>TURN 1 2 3: Is a very fast chicane where you will use the F1 style curbing before heading onto a short straight.</li>
+                    <li>TURN 4 5: A tight, left/right chicane with very heavy break zone heading on to the back straight.</li>
+                    <li>TURN 6: Wide left progressively getting tighter leading into the hairpin</li>
+                    <li>TURN 7 8: Is a VERY technical section with the right hairpin with a kinked left on the exit</li>
+                    <li>TURN 9: Is a 3rd gear fast and challenging one with a slight uphill and decreasing radius leading into the final corner before the straight.</li>
+                    <li>TURN 10: The final left uphill leading into the main straight.</li>
+                    <li><img src="./track_preview_pic/map.png" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500" data-aos-once="true"></li>
+                </ul>
+                <!-- <a class="book" href="./book.html">Book Now<div class=arrow>></div></a> -->
+            </div>
+
+
+
+            <div class="track_pic">
+                <ul class="pic_list">
+                    <li>
+                        <div class="full"><img src="./track_preview_pic/Aerial.jpg">
+                            <h1>Circuit gallery</h1>
+                        </div>
+                    </li>
+
+
+                    <li><img src="./track_preview_pic/pit.jpg" div data-aos="zoom-out" data-aos-once="true"></li>
+                    <li><img src="./track_preview_pic/circuit_4.jpg" div data-aos=" zoom-out " data-aos-once="true "></li>
+                    <li><img src="./track_preview_pic/circuit-2.jpg" div data-aos="zoom-out " data-aos-once="true "></li>
+                    <li><img src="./track_preview_pic/anglesey_supra.jpg " div data-aos="zoom-out " data-aos-offset="200px " data-aos-once="true "></li>
+                    <li><img src="./track_preview_pic/bac-mono.jpg " div data-aos="zoom-out " data-aos-offset="200px " data-aos-once="true "></li>
+                </ul>
+            </div>
+
+
+
+            <div class="footer ">
+                <img src="./pictures/banner_img.png " height="3px ">
+                <h1>© Just Race Limited
+                    <h1>
+            </div>
+        </div>
+    </div>
+    <script>
+        // $(document).ready(function() {
+        //     $('.showmenu').on('click', function(e) {
+        //         // e.preventDefault();
+        //         $('ul .hiden_list').css('transform', "translate(0%)");
+        //     });
+        // });
+        let showmenu = document.querySelector(".showmenu");
+        showmenu.addEventListener("click", function() {
+            let hiden_list = document.querySelector(".hiden_list");
+            hiden_list.classList.toggle("show");
+            // console.log(hiden_list);
+        })
+    </script>
+    <script>
+        (function() {
+
+            var doc = document.documentElement;
+            var w = window;
+
+            var prevScroll = w.scrollY || doc.scrollTop;
+            var curScroll;
+            var direction = 0;
+            var prevDirection = 0;
+
+            var header = document.getElementById('main_header');
+
+            var checkScroll = function() {
+
+                /*
+                 ** Find the direction of scroll
+                 ** 0 - initial, 1 - up, 2 - down
+                 */
+
+                curScroll = w.scrollY || doc.scrollTop;
+                if (curScroll > prevScroll) {
+                    //scrolled up
+                    direction = 2;
+                } else if (curScroll < prevScroll) {
+                    //scrolled down
+                    direction = 1;
+                }
+
+                if (direction !== prevDirection) {
+                    toggleHeader(direction, curScroll);
+                }
+
+                prevScroll = curScroll;
+            };
+
+            var toggleHeader = function(direction, curScroll) {
+                if (direction === 2 && curScroll > 52) {
+
+                    //replace 52 with the height of your header in px
+
+                    header.classList.add('hide');
+                    prevDirection = direction;
+                } else if (direction === 1) {
+                    header.classList.remove('hide');
+                    prevDirection = direction;
+                }
+            };
+
+            window.addEventListener('scroll', checkScroll);
+
+        })();
+    </script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

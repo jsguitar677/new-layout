@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+:root {
+    --background: rgba(0, 0, 0, 0.6);
+}
+
+header {
+    background: var(--background);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.hamburger {
+    width: 40px;
+    cursor: pointer;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 100%;
+    display: flex;
+}
+
+.logo-link {
+    text-decoration: none;
+}
+
+.nav-toggle {
+    z-index: -1;
+    display: none;
+}
+
+.nav-toggle-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 1em;
+    height: 40px;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: var(--background);
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+nav a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: rgb(216, 40, 28);
+}
+
+.nav-toggle:checked~nav {
+    transform: scale(1, 1);
+}
+
+.nav-toggle:checked~nav a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+}
+
+.hamburger {
+    margin-top: 10px;
+}
+
+#senna {
+    width: 1920px;
+    text-align: end;
+}
+
+@media screen and (min-width: 800px) {
+    .nav-toggle-label {
+        display: none;
+    }
+    .logo {
+        float: left;
+        width: 19%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    nav {
+        position: relative;
+        text-align: right;
+        transition: none;
+        transform: scale(1, 1);
+        background: none;
+        top: initial;
+        left: initial;
+        width: 50%;
+        float: right;
+        padding-top: 30px;
+        /* end Edge support stuff */
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav li {
+        margin-right: 1em;
+        margin-left: 3em;
+        margin-bottom: 0;
+    }
+    nav a {
+        opacity: 1;
+        position: relative;
+    }
+    nav a::before {
+        content: '';
+        display: block;
+        background: black;
+        position: absolute;
+        left: 0;
+        right: 0;
+        transform: scale(0, 1);
+        transition: transform ease-in-out 250ms;
+    }
+    nav a:hover::before {
+        transform: scale(1, 1);
+    }
+}

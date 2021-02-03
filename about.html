@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>about us</title>
+    <link rel="icon" href="./logo/title_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css_file/about.css">
+    <script type="text/javascript" src="./plugins/aos.js"></script>
+    <link rel="stylesheet" href="css_file/aos.css">
+</head>
+
+<body>
+    <div class="container">
+        <header id="main_header">
+            <nav class="main_nav">
+                <a href="./index.html" class="logo_img">
+                    <img src="./logo/logo_img.png" class="logo"></a>
+                <a href="#" class="showmenu">menu</a>
+                <ul class="link_list">
+                    <li><a class="d_e" href="./driving_experience.html">Driving Experience</a></li>
+                    <li><a class="o_f" href="./just_race_fleet.html">Our Fleet</a></li>
+                    <li><a class="t_p" href="./track_preview.html">Track Preview </a></li>
+                    <li><a class="about" href="./about.html">About</a></li>
+                    <li><a class="b_n" href="./book.html">Book Now</a></li>
+                </ul>
+                <ul class="hiden_list">
+                    <li><a class="d_e" href="./driving_experience.html">Driving Experience.</a></li>
+                    <li><a class="o_f" href="./just_race_fleet.html">Our Fleet</a></li>
+                    <li><a class="t_p" href="./track_preview.html">Track Preview. </a></li>
+                    <li><a class="about" href="./about.html">About.</a></li>
+                    <li><a class="b_n" href="./book.html">Book Now.</a></li>
+                </ul>
+                <marquee class="alert">
+                    <li>
+                        <font color="yellow">!</font> Current Track Condition : dry and clean, surface temperature: 12 degrees.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+                        <font color="yellow">!</font> COVID-19 AlERT : We’ve cancelled our Track Day and all our Drive experiences for November and anyone booked in will be emailed with an update. </li>
+                    We’ll be rescheduling as soon as restrictions are lifted and it’s safe to do so. </li>
+
+                </marquee>
+            </nav>
+        </header>
+
+        <div class="pic_container">
+            <h1 data-aos="fade-right" data-aos-once="true" data-aos-delay="200">Meet Us At Just Race!</h1>
+
+
+            <img src="./about_pics/meet_us.jpg" class="img_flow">
+        </div>
+
+        <div class="goal">
+            <h1>Our Goal</h1>
+            <p>The racing experience starts by suiting up in a professional race suit and helmet. Then learn the curves in a state-of-the-art simulator session where the Las Vegas racetrack has been laser scanned to exact specifications. Nowhere else in
+                the world will you find such a driving experience. We knew this experience could only take place on a real track with a real racing car. The real challenge was to develop an experience, from beginning to end, that was complementary to
+                the Ferrari lifestyle and synonymous with its name. After having hosted multiple corporate events and team building activities we can confidently say that this goal has been achieved.”
+            </p>
+            <img src="./logo/logo_img.png">
+        </div>
+
+        <div class="instructors">
+            <h1>MEET OUR TEAM OF HIGHLY SKILLED DRIVERS</h1>
+            <div class="martha">
+                <h1>Martha Letherwood</h1>
+                <h3>DRIVING HISTORY</h3>
+                <ul class="his_list">
+                    <li>martha’s father used to race (Paul Eaton) and she was brought to her first race track aged 2 months old, Motorsport is in her blood</li>
+                    <li>At 10 Martha started Karting. Competed for 4 years in the various karting echelons gaining many wins and podiums</li>
+                    <li>Move into Cars aged 15</li>
+                    <li>2009 entered first ‘adult’ championship in the Dunlop Sportmaxx Cup racing a Vauxhall Corsa SRI winning the Class B Championship</li>
+                    <li>2011-2012 raced in the Mazda Mx5 Supercup doing part seasons and various races as and when budget allowed</li>
+                    <li>2013: After having over a year out competed in the last 8 races of the Mazda Mx5 Supercup and achieved 6 podiums, 1 win and 1 fastest lap</li>
+                    <li>2014: Competing in the Mazda Mx5 Supercup</li>
+                </ul>
+                <img src="./about_pics/abb.png">
+            </div>
+
+            <div class="stig">
+
+                <ul class="his_list">
+                    <li>
+                        <h1>The Stig</h1>
+                    </li>
+                    <li>
+                        <h3>Who Is Stig?</h3>
+                    </li>
+                    <li>He has no face</li>
+                    <li>He is terrified of Scouts</li>
+                    <li>His favourite T-shirt has a picture of a T-shirt</li>
+                    <li>He never blinks</li>
+                    <li>He naturally faces magnetic north</li>
+                    <li>He will charge you if you attempt to remove his helmet</li>
+                    <li>The drinks cabinet in his car contains 14 different types of custard</li>
+                    <li>Spuer awesome instructor</li>
+                </ul>
+                <img src="./about_pics/stig.png" width="250px">
+
+            </div>
+
+
+        </div>
+
+        <div class="footer">
+            <img src="./pictures/banner_img.png" height="3px">
+            <h1>© Just Race Limited
+                <h1>
+        </div>
+
+    </div>
+
+    <script>
+        // $(document).ready(function() {
+        //     $('.showmenu').on('click', function(e) {
+        //         // e.preventDefault();
+        //         $('ul .hiden_list').css('transform', "translate(0%)");
+        //     });
+        // });
+        let showmenu = document.querySelector(".showmenu");
+        showmenu.addEventListener("click", function() {
+            let hiden_list = document.querySelector(".hiden_list");
+            hiden_list.classList.toggle("show");
+            // console.log(hiden_list);
+        })
+    </script>
+    <script>
+        (function() {
+
+            var doc = document.documentElement;
+            var w = window;
+
+            var prevScroll = w.scrollY || doc.scrollTop;
+            var curScroll;
+            var direction = 0;
+            var prevDirection = 0;
+
+            var header = document.getElementById('main_header');
+
+            var checkScroll = function() {
+
+                /*
+                 ** Find the direction of scroll
+                 ** 0 - initial, 1 - up, 2 - down
+                 */
+
+                curScroll = w.scrollY || doc.scrollTop;
+                if (curScroll > prevScroll) {
+                    //scrolled up
+                    direction = 2;
+                } else if (curScroll < prevScroll) {
+                    //scrolled down
+                    direction = 1;
+                }
+
+                if (direction !== prevDirection) {
+                    toggleHeader(direction, curScroll);
+                }
+
+                prevScroll = curScroll;
+            };
+
+            var toggleHeader = function(direction, curScroll) {
+                if (direction === 2 && curScroll > 52) {
+
+                    //replace 52 with the height of your header in px
+
+                    header.classList.add('hide');
+                    prevDirection = direction;
+                } else if (direction === 1) {
+                    header.classList.remove('hide');
+                    prevDirection = direction;
+                }
+            };
+
+            window.addEventListener('scroll', checkScroll);
+
+        })();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
