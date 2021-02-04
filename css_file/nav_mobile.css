@@ -63,6 +63,10 @@ h1.logo {
     margin: 0;
 }
 
+img.red {
+    display: none;
+}
+
 .logo-link {
     text-decoration: none;
 }
@@ -124,7 +128,7 @@ nav a:hover {
 
 .nav-toggle:checked~nav a {
     opacity: 1;
-    transition: opacity 250ms ease-in-out 250ms;
+    transition: opacity 250ms ease-in-out 0.1s;
 }
 
 div.sen {
@@ -197,7 +201,7 @@ div.sen>h1 {
         left: 0;
         right: 0;
         transform: scale(0, 1);
-        transition: transform ease-in-out 250ms;
+        transition: transform ease-in-out 0.1s;
     }
     nav a:hover::before {
         transform: scale(1, 1);
@@ -223,6 +227,24 @@ div.sen>h1 {
     }
     nav {
         background: rgba(0, 0, 0, 0.9);
+    }
+    img.white {
+        display: none;
+    }
+    img.red {
+        display: block;
+    }
+    line.line-one {
+        stroke: rgb(216, 40, 28);
+    }
+    line.line-two {
+        stroke: rgb(216, 40, 28);
+    }
+    line.line-three {
+        stroke: rgb(216, 40, 28);
+    }
+    nav a {
+        color: rgb(216, 40, 28);
     }
 }
 
