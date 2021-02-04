@@ -19,16 +19,6 @@
     height: 100%;
 } */
 
-#main_header nav.main_nav ul.link_list>li>a.t_p {
-    color: black;
-    text-decoration: none;
-}
-
-#main_header nav.main_nav ul.link_list>li>a.o_f {
-    color: black;
-    text-decoration: none;
-}
-
 div.pic_container {
     position: relative;
     height: 50vw;
@@ -838,12 +828,3 @@ div.footer {
 
 
 /* mobile -------------------------------------------------*/
-
-@media (max-width: 502px) {
-    div.desktop {
-        display: none;
-    }
-    div.mobile {
-        display: block;
-    }
-}

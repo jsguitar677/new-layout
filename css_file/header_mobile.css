@@ -19,7 +19,7 @@ body {
     --background: rgba(0, 0, 0, 0.6);
 }
 
-div.main_header {
+div.mobile_header {
     position: fixed;
     background: var(--background);
     text-align: center;
@@ -27,6 +27,7 @@ div.main_header {
     width: 100%;
     z-index: 5;
     transition: ease 0.4s;
+    ;
 }
 
 .container {
@@ -211,18 +212,11 @@ div.sen>h1 {
 }
 
 @media (max-width: 502px) {
-    div.desktop {
+    div.main_header {
         display: none;
     }
-    div.mobile {
+    div.mobile_header {
         display: block;
-    }
-    div.main_header {
-        display: block;
-        background: rgba(0, 0, 0, 0.9);
-    }
-    nav {
-        background: rgba(0, 0, 0, 0.9);
     }
 }
 
