@@ -223,10 +223,10 @@ div.sen>h1 {
     }
     div.main_header {
         display: block;
-        background: rgba(0, 0, 0, 0.9);
+        background: rgba(255, 255, 255, 0.9);
     }
     nav {
-        background: rgba(0, 0, 0, 0.9);
+        background: rgba(255, 255, 255, 0.9);
     }
     img.white {
         display: none;
@@ -235,7 +235,7 @@ div.sen>h1 {
         display: block;
     }
     line.line-one {
-        stroke: rgb(216, 40, 28);
+        stroke: rgb(199, 36, 24);
     }
     line.line-two {
         stroke: rgb(216, 40, 28);
