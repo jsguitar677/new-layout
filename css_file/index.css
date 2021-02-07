@@ -1,4 +1,5 @@
 @import"./footer.css";
+@import"./nav_paste.css";
 @font-face {
     font-family: "F1_bold";
     src: url("../font/Formula1-Bold.otf");

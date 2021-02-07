@@ -21,7 +21,7 @@ body {
 
 div.main_header {
     position: fixed;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(255, 255, 255, 0.767);
     color: rgb(216, 40, 28);
     text-align: center;
     /* height: 100px; */
@@ -179,7 +179,11 @@ h1.race{
     position: absolute;
     width: 100%;
 }
-
+@media (max-width: 833px){
+    div.container{
+    display: none;
+    }
+}
 @media screen and (min-width: 800px) {
     .nav-toggle-label {
         display: none;
@@ -240,6 +244,13 @@ h1.race{
 }
 
 @media (max-width: 502px) {
+    div.container{
+        display: block;
+        
+        }
+    .header2{
+        display: none;
+    }
     div.desktop {
         display: none;
     }
