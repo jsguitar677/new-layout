@@ -375,7 +375,7 @@ span.arrow-bottom {
 
   div.fxxk{
     position: relative;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: right;
   }
   div.fxxk>h1{
@@ -427,7 +427,46 @@ div.fxxk a.book div.arrows {
     color: rgb(216, 40, 28);
 }
 
-  
+div.track_m{
+margin-top: 10px;
+/* border: 1px solid red; */
+text-align: right;
+}
+
+div.track_m>h1{
+    font-size: 30px;
+    margin: 5px auto;
+    width: 90%;
+    text-align: center;
+    
+}
+div.track_m>p{
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 5px ;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom:10px;
+    font-family: 'Roboto', sans-serif;
+   }
+
+   div.track_m a.book {
+    /* border: 1px solid black; */
+    font-size: 5vw;
+    font-family: "F1_bold";
+    text-decoration: none;
+    color: black;
+    color: rgb(216, 40, 28);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin:10px;
+}
+
+div.track_m a.book div.arrows {
+    display: inline;
+    color: rgb(216, 40, 28);
+}
 
   
   
