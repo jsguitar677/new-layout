@@ -21,7 +21,7 @@ body {
 
 div.main_header {
     position: fixed;
-    background: rgba(255, 255, 255, 0.767);
+    background: rgba(255, 255, 255, 0.89);
     color: rgb(216, 40, 28);
     text-align: center;
     /* height: 100px; */
@@ -124,7 +124,7 @@ nav li {
 }
 
 nav a {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 0.89);
     text-decoration: none;
     text-transform: uppercase;
     opacity: 0;
@@ -148,6 +148,7 @@ div.sen {
     position: relative;
     overflow: hidden;
     height: 143.5vw;
+    background-color: rgba(0, 0, 0, 0.897);
     /* border: 1px solid rgb(216, 40, 28); */
     
 }
@@ -302,7 +303,7 @@ h1.race{
 /* owl */
 
 div.catalog{
-
+    background-color: rgba(0, 0, 0, 0.897);
     display: block;
 }
 
@@ -371,6 +372,62 @@ span.arrow-bottom {
     -webkit-transform: rotate(45deg);
     margin-bottom: 7px;
   }
+
+  div.fxxk{
+    position: relative;
+    border: 1px solid red;
+    text-align: right;
+  }
+  div.fxxk>h1{
+    z-index: 1;
+    top: 5%;
+    position: absolute;
+    /* border: 1px solid red; */
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    left: 5%;
+  }
+  div.fxxk>h2{
+    z-index: 1;
+    top: 12%;
+    position: absolute;
+    /* border: 1px solid red; */
+    color: white;
+    margin: 0;
+    font-size: 26px;
+    left: 10%;
+  }
+
+  div.fxxk>p{
+   font-size: 14px;
+   line-height: 1.5;
+   margin: 5px ;
+   width: 90%;
+   margin: 0 auto;
+   margin-top: 15px;
+   text-align: center;
+   margin-bottom:10px;
+   font-family: 'Roboto', sans-serif;
+  }
+
+  div.fxxk a.book {
+    /* border: 1px solid black; */
+    font-size: 5vw;
+    font-family: "F1_bold";
+    text-decoration: none;
+    color: black;
+    color: rgb(216, 40, 28);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin:10px;
+}
+
+div.fxxk a.book div.arrows {
+    display: inline;
+    color: rgb(216, 40, 28);
+}
+
+  
 
   
   
