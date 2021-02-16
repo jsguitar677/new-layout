@@ -455,7 +455,6 @@ div.track_m>p{
    div.track_m a.book {
     /* border: 1px solid black; */
     font-size: 5vw;
-    font-family: "F1_bold";
     text-decoration: none;
     color: black;
     color: rgb(216, 40, 28);
@@ -468,5 +467,67 @@ div.track_m a.book div.arrows {
     color: rgb(216, 40, 28);
 }
 
-  
-  
+div.instructor_m{
+position: relative;
+height: 100vw;
+background-color: black;
+margin-top: 20px;
+}
+
+video.instructor_v{
+    position: absolute;
+top: 30%;
+}
+
+div.instructor_m>img{
+position: absolute;
+width: 25%;
+left: 39%;
+top: 23%;
+z-index: 2;
+}
+
+div.instructor_m>h1{
+ color: white;
+ position: absolute;
+ top: 50%;
+ left: 26%;
+ font-size: 9vw;
+ white-space: nowrap;
+ z-index: 2;
+ text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+div.instructor_m>h1.topic_m{
+ top: 0;
+ left: 2%;
+ font-size: 6vw;
+ white-space: normal;
+}
+
+div.instructor_m>h6{
+    font-family:'Roboto', sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 2%;
+    left: 5%;
+    font-size: 14px;
+    font-weight: normal;
+    width: 90%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+@media (max-width: 400px){
+    div.instructor_m>h6{
+margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 365px){
+    div.instructor_m>h6{
+line-height: 1.2;
+    }
+
+}
