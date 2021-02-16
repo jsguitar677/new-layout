@@ -474,9 +474,9 @@ background-color: black;
 margin-top: 20px;
 }
 
-video.instructor_v{
+div.instructor_m>video{
     position: absolute;
-top: 30%;
+    top: 30%;
 }
 
 div.instructor_m>img{
